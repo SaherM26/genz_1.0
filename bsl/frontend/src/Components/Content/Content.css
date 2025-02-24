@@ -1,0 +1,154 @@
+.quote h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    text-align: center;
+    color: #2D2F31;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .quote h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    text-align: center;
+    color: gray;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+  }
+.keys{
+    height: 400px;
+    width: 100%;
+    background-color: rgba(250, 237, 205, 0.7); 
+    margin: 50px auto;
+    position: relative;
+    
+
+
+}
+.ellipse-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+.ellipse {
+    width: 150px; 
+    height: 150px; 
+    background-color: white; 
+    border-radius: 50%;
+    position: absolute;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #B3A394;
+    margin-bottom: 10px;
+  }
+  
+  .left {
+    left: 0;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  
+  .center {
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+
+  }
+  
+  .right {
+    right: 0%;
+    margin-top: 30px;
+    margin-right: 30px;
+  }
+  .icon {
+    font-size: 50px; 
+    color: #2D2F31;
+
+}
+.icon2 {
+    font-size: 50px; 
+    color: #2D2F31;
+
+}
+.icon3 {
+    font-size: 60px; 
+    color: #2D2F31;
+
+}
+.ellipse-text {
+  
+    font-size: 16px;
+    font-weight: bold;
+    color: #2D2F31;
+    position: absolute;
+    left: 0;
+    margin-top: 210px;
+    margin-left: 60px;
+  }
+  .ellipse-text3 {
+  
+    font-size: 16px;
+    font-weight: bold;
+    color: #2D2F31;
+    position: absolute;
+    right: 0;
+    margin-top: 210px;
+    margin-right: 50px;
+  }
+  .ellipse-text2 {
+  
+    font-size: 16px;
+    font-weight: bold;
+    color: #2D2F31;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 210px;
+  }
+  .ellipse-para {
+  
+    font-size: 17px;
+    font-weight: lighter;
+    color: #2D2F31;
+position: absolute;
+    left: 0;
+    margin-top: 260px;
+    margin-left: 30px;
+  
+  }
+  .ellipse-para2 {
+  
+    font-size: 17px;
+    font-weight: lighter;
+    color: #2D2F31;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 260px;
+  }
+  .ellipse-para3 {
+  
+    font-size: 16px;
+    font-weight: lighter;
+    color: #2D2F31;
+    position: absolute;
+    right: 0;
+    margin-top: 260px;
+    margin-right: 10px;
+  }
+
+
+
+
+
+
+  
+
+  
