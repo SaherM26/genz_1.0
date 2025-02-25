@@ -1,0 +1,27 @@
+[
+    {
+      "id": "1",
+      "name": "Bioinfomatics",
+      "description": "Beginner.course",
+      "image": "bio.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Computional Biology",
+      "description": "Beginner.specialization",
+      "image": "com.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Genomic data",
+      "description": "Beginner.specialization",
+      "image": "genomic.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Data science",
+      "description": "Beginner.course",
+      "image": "data.jpg"
+    }
+  ]
+  
