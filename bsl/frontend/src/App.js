@@ -6,6 +6,7 @@ import CoursesList from './Components/CoursesList/CoursesList';
 import Hero from './Components/Hero/Hero';
 import Navbar from './Components/Navbar/Navbar';
 import Plans from './Components/Plans/Plans';
+import Search from './Components/Search/Search';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <Content/>
     <CoursesList/>
    <Plans/>
+   <Search/>
     </div>
   );
 }
