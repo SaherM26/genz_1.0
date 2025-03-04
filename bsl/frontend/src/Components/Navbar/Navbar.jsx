@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="nav-logo">
             <img src={logo} alt=""/>
           </div>
-          <div className="search-box">
+          <div className="search-box" style={{ width: '600px' }}>
   <div className="search-icon">
   <IoIosSearch />
   </div>
