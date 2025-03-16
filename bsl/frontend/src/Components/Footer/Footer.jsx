@@ -13,8 +13,10 @@ const Footer = () => {
           <h3>GEN-Z School</h3>
           <ul>
             <li><a href='/what-we-offer'>What We Offer</a></li>
-            <li><a href='/leader'>Leader</a></li>
-            <li><a href='/partners'>Partners</a></li>
+            <li><a href='/About'>About</a></li>
+            <li><a href='/Carrers'>Carrers</a></li>
+            <li><a href='/Certificates'>Certificates</a></li>
+            <li><a href='/Free courses'>Free courses</a></li>
           </ul>
         </div>
 
@@ -25,6 +27,8 @@ const Footer = () => {
             <li><a href='/webinars'>Webinars</a></li>
                      <li><a href='/Leaders'>Leaders</a></li>
            <li><a href='/Partners'>Partners</a></li>
+           <li><a href='/Teaching center'>Teaching center</a></li>
+           <li><a href='/Blogs'>Blogs</a></li>
           </ul>
         </div>
 
@@ -34,6 +38,8 @@ const Footer = () => {
             <li><a href='/help'>Help</a></li>
             <li><a href='/contact'>Contact</a></li>
             <li><a href='/terms'>Terms</a></li>
+            <li><a href='/Articles'>Articles</a></li>
+            <li><a href='/Privacy'>Privacy</a></li>
           </ul>
         </div>
       </div>
