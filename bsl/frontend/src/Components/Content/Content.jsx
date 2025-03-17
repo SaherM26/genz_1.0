@@ -16,9 +16,9 @@ const Content = () => {
           </div>
           <p className="ellipse-text"> Quick Access</p>
           <p className="ellipse-para">
-  Get fast easy access to<br />
-  everything you need to<br />
-  accelerate your learning
+          Gain seamless access to<br/>
+all essential resources to<br/>
+enhance & accelerate learning
 </p>
 
         </div>
@@ -30,7 +30,7 @@ const Content = () => {
           <p className="ellipse-text2">Effortless Learning</p>
           <p className="ellipse-para2">
   Learn at your own pace with<br />
-  simple , engaging methods that<br />
+  simple engaging methods that<br />
   make growth seamless
 </p>
         </div>
@@ -41,9 +41,9 @@ const Content = () => {
           </div>
           <p className="ellipse-text3">Cost-Effective</p>
           <p className="ellipse-para3">
-  Affordable solutions designed to<br />
- maximize value without compromising<br />
-quality or your budget
+          Get smart, affordable solutions<br />
+Save more, spend less wisely<br />
+Achieve value effortlessly
 </p>
         </div>
       </div>
