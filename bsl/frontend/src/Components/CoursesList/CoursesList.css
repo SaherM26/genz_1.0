@@ -3,8 +3,7 @@
     text-align: center;
     padding: 20px;
   }
-  
-  /* Container that holds all course boxes */
+
   .courses-container {
     display: flex;
     justify-content: center;

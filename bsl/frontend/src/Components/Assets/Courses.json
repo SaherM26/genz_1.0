@@ -3,25 +3,37 @@
       "id": "1",
       "name": "Bioinfomatics",
       "description": "Beginner.course",
-      "image": "bio.jpg"
+      "instructor": "Mr. Aman",
+      "duration": "6 weeks",
+      "image": "bio.jpg",
+      "price": 3999
     },
     {
       "id": "2",
       "name": "Computional Biology",
       "description": "Beginner.specialization",
-      "image": "com.jpg"
+      "instructor": "Mr. Aman",
+      "duration": "6 weeks",
+      "image": "com.jpg",
+      "price": 3999
     },
     {
       "id": "3",
       "name": "Genomic data",
       "description": "Beginner.specialization",
-      "image": "genomic.jpg"
+      "instructor": "Ms. Palak",
+      "duration": "6 weeks",
+      "image": "genomic.jpg",
+      "price": 2999
     },
     {
       "id": "4",
       "name": "Data science",
       "description": "Beginner.course",
-      "image": "data.jpg"
+      "instructor": "Ms. Palak",
+      "duration": "6 weeks",
+      "image": "data.jpg",
+      "price": 2999
     }
   ]
   
