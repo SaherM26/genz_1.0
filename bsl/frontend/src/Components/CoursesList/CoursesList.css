@@ -41,21 +41,21 @@
     margin-bottom: 15px;
   }
   
-  /* Course title styling */
+
   .course-box h3 {
     margin: 10px 0 5px 0;
     font-size: 1.5em;
     color: #2D2F31;
   }
   
-  /* Course description styling */
+ 
   .course-box p {
     font-size: 1em;
     color: #666;
     margin: 0 0 15px;
   }
   
-  /* Link/button styling */
+
   .course-link {
     display: inline-block;
     padding: 8px 12px;
