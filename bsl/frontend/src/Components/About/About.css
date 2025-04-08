@@ -18,3 +18,22 @@ h1{
     font-weight: medium;
     padding: 30px;
 }
+@media (max-width: 768px) {
+    .about {
+      height: auto; 
+      padding-top: 10px;
+      padding-bottom: 30px;
+    }
+  
+    .about h1 {
+      font-size: 28px;
+      padding: 0 15px;
+    }
+  
+    .about p {
+      font-size: 16px;
+      padding: 15px 20px;
+      line-height: 1.6;
+    }
+  }
+  
