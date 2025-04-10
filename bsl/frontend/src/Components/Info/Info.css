@@ -11,7 +11,9 @@
     display: flex;                  
     justify-content: space-between; 
     align-items: flex-start;         
-    padding: 0 50px;               
+    padding: 0 50px; 
+    flex-wrap: wrap;   
+    margin-top: 20px;   
   }
   
   .reading-text {
@@ -26,13 +28,13 @@
     font-size: 50px;
     text-align: left;
   }
-  
   .info-para {
     margin: 0;
    margin-bottom: 0px;
     font-size: 25px;
     margin-top: 50px;  
     text-align: left;
+    color: black !important; 
   }
   
   .reading img {
@@ -119,6 +121,5 @@
     .start-line {
       margin-bottom: 40px;
     }
-  }
-  
-  
+  } 
+ 
