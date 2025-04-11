@@ -58,10 +58,13 @@ import About from "./Components/About/About";
 import Footer from "./Components/Footer/Footer";
 import CourseDetail from "./Pages/CourseDetail/CourseDetail";
 import Read from "./Pages/Read/Read"; 
+import Trial from "./Pages/Trial/Trial";
+import ScrollToTop from "./Components/Scrolltotop";
 function App() {
   return (
     <>
       <Navbar />
+      <ScrollToTop/>
       <Routes>
         <Route
           path="/"
@@ -78,6 +81,7 @@ function App() {
           }
         />
         <Route path="/read" element={<Read />} /> 
+        <Route path="/trial" element={<Trial />} />
         <Route path="/course/:id" element={<CourseDetail />} />
       </Routes>
       <Footer />
