@@ -1,6 +1,7 @@
 import React from 'react'
 import './Plans.css';
 import { TiTick } from "react-icons/ti";
+import { Link } from 'react-router-dom';
 const Plans = () => {
   return (
     <div className="plan">
@@ -26,7 +27,9 @@ const Plans = () => {
     <div className="plan-box">Multiple Program
         <p>Genz schoolPlus Monthly Complete multiple courses and earn credentials in the short term</p>
         <h3>₹4,963 /month</h3>
+       <Link to= "/trial">
         <button>Start 1 week free trial</button>
+        </Link>
         <p className="plan-feature">
           <TiTick className="tick-icon" />
           <span>Access to 1000+ courses</span>
