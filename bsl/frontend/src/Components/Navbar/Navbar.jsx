@@ -9,15 +9,12 @@ import { useState, useEffect } from 'react';
 const Navbar = () => {
   const navigate = useNavigate();
   const [click, setClick] = useState(false);
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
   useEffect(() => {
     if (click) {
       navigate('/login');
-      setIsLoggedIn(true);
     }
     else {
       navigate('/');
-      setIsLoggedIn(false);
     }
   }, [click]);
   return (
@@ -44,7 +41,7 @@ const Navbar = () => {
       </ul>
       <div className="nav-login-cart">
         <FiShoppingCart />
-        <button onClick={() => setClick(!click)}>{isLoggedIn ? 'Logout' : click ? 'Back' : 'Login'}</button>
+        <button onClick={() => setClick(!click)}>Login</button>
       </div>
     </div>
   )

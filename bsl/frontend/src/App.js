@@ -59,7 +59,7 @@ import Footer from "./Components/Footer/Footer";
 import CourseDetail from "./Pages/CourseDetail/CourseDetail";
 import Read from "./Pages/Read/Read";
 import Trial from "./Pages/Trial/Trial";
-import ScrollToTop from "./Components/Scrolltotop";
+import ScrollToTop from "./Components/Scrolltotop/Scrolltotop";
 import LoginPage from "./Pages/LogIn/LoginPage";
 
 function App() {
