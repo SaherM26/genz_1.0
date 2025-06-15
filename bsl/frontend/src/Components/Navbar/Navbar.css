@@ -12,16 +12,17 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8px 20px;
+  padding: 5px 20px;
   width: 100%;
   background-color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   z-index: 1000;
-  height: auto;
+  height: 90px;
   flex-wrap: wrap;
-  position: relative;
+  overflow: hidden;
   gap: 0;
 }
+
 
 .nav-logo img {
   width: 140px;
