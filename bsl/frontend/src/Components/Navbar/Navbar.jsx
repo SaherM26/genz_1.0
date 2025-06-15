@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+import { Link } from "react-router-dom";
 import logo from '../Assets/logo.jpg'
 import { FiShoppingCart } from "react-icons/fi";
 import { IoIosSearch } from "react-icons/io";
@@ -20,9 +21,9 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <div className="nav-logo">
-        <a href="/">
-          <img src={logo} alt="" />
-        </a>
+        <Link to="/">
+          <img src={logo} alt="Home" />
+        </Link>
       </div>
       <div className="search-box" style={{ width: '500px' }}>
         <div className="search-icon">

@@ -1,39 +1,26 @@
-let mongoose = require("mongoose");
-let courseSchema = new mongoose.Schema(
+const mongoose = require("mongoose");
+
+const courseSchema = new mongoose.Schema(
     {
-        title: {
-            type: String, require: true
-        },
-        slug: {
-            type: String, require: true
-        },
-        description: {
-            type: String, require: true
-        },
-        category: {
-            type: String, require: true
-        },
-        price: {
-            type: Number, require: true
-        },
-        instructor: {
-            type: String, require: true
-        },
-        thumbnailUrl: {
-            type: String, require: true
-        },
+        title: { type: String, required: true, trim: true },
+        description: { type: String, required: true },
+        category: { type: String, required: true },
+        price: { type: Number, required: true, min: 0 },
+        instructor: { type: String, required: true },
+        thumbnailUrl: { type: String },
         lessons: {
-            type: String, require: true
+            type: [String],
+            default: []
         },
         ratings: {
-            type: Number, require: true
-        },
-        published: {
-            type: Boolean, require: true
-        },
-        createdAt: {
-            type: String, require: true
+            type: Number,
+            default: 0,
+            min: 0,
+            max: 5
         }
+    },
+    {
+        timestamps: true
     }
 );
 

@@ -12,7 +12,7 @@ const Info = () => {
         <div className="reading-text">
           <h1>Top booming life science fields</h1>
           <p className="info-para">
-          "The future of life sciences is incredibly promising,<br />
+            "The future of life sciences is incredibly promising,<br />
             with transformative breakthroughs in biotechnology,<br />
             genomics, AI, personalized medicine, and regenerative therapies<br />
             shaping the world."

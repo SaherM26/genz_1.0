@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
-import courses from '../Assets/Courses.json'; 
+import courses from '../Assets/Courses.json';
 import './CoursesList.css';
 
 import bioinformatics from '../Assets/bio.jpg';
@@ -9,21 +8,23 @@ import computationalBiology from '../Assets/com.jpg';
 import genomicData from '../Assets/genomic.jpg';
 import dataScience from '../Assets/data.jpg';
 
-
 const images = {
   'bio.jpg': bioinformatics,
   'com.jpg': computationalBiology,
   'genomic.jpg': genomicData,
   'data.jpg': dataScience,
 };
+
 const CoursesList = () => {
-    return (
+  return (
+    <div id="CoursesList" className="courses-wrapper">
+      <h1 className="section-title">Courses</h1>
       <div className="courses-list">
         <div className="courses-container">
           {courses.map(course => (
             <div key={course.id} className="course-box">
               <img
-                src={images[course.image]} 
+                src={images[course.image]}
                 alt={course.name}
                 className="course-image"
               />
@@ -36,8 +37,8 @@ const CoursesList = () => {
           ))}
         </div>
       </div>
-    );
-  };
-  
-  export default CoursesList;
-  
+    </div>
+  );
+};
+
+export default CoursesList;

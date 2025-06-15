@@ -16,10 +16,10 @@ const Content = () => {
           </div>
           <p className="ellipse-text"> Quick Access</p>
           <p className="ellipse-para">
-          Gain seamless access to<br/>
-all essential resources to<br/>
-enhance & accelerate learning
-</p>
+            Gain seamless access to<br />
+            all essential resources to<br />
+            enhance & accelerate learning
+          </p>
 
         </div>
 
@@ -29,10 +29,10 @@ enhance & accelerate learning
           </div>
           <p className="ellipse-text2">Effortless Learning</p>
           <p className="ellipse-para2">
-  Learn at your own pace with<br />
-  simple engaging methods that<br />
-  make growth seamless
-</p>
+            Learn at your own pace with<br />
+            simple engaging methods that<br />
+            make growth seamless
+          </p>
         </div>
 
         <div className="ellipse-container">
@@ -41,10 +41,10 @@ enhance & accelerate learning
           </div>
           <p className="ellipse-text3">Cost-Effective</p>
           <p className="ellipse-para3">
-          Get smart, affordable solutions<br />
-Save more, spend less wisely<br />
-Achieve value effortlessly
-</p>
+            Get smart, affordable solutions<br />
+            Save more, spend less wisely<br />
+            Achieve value effortlessly
+          </p>
         </div>
       </div>
     </div>

@@ -6,29 +6,28 @@ import { FaFacebookF, FaTwitter, FaYoutube, FaLinkedinIn, FaInstagram } from 're
 const Footer = () => {
   return (
     <div className='footer'>
-     
+
       <div className='footer-content'>
-       
+
         <div className='footer-section'>
           <h3>GEN-Z School</h3>
           <ul>
-            <li><a href='/what-we-offer'>What We Offer</a></li>
-            <li><a href='/About'>About</a></li>
-            <li><a href='/Carrers'>Carrers</a></li>
+            <li><a href="/#CoursesList">What We Offer</a></li>
+            <li><a href="/#about">About</a></li>
+            <li><a href='/career'>career</a></li>
             <li><a href='/Certificates'>Certificates</a></li>
             <li><a href='/Free courses'>Free courses</a></li>
           </ul>
         </div>
 
-   
         <div className='footer-section'>
           <h3>Community</h3>
           <ul>
             <li><a href='/webinars'>Webinars</a></li>
-                     <li><a href='/Leaders'>Leaders</a></li>
-           <li><a href='/Partners'>Partners</a></li>
-           <li><a href='/Teaching center'>Teaching center</a></li>
-           <li><a href='/Blogs'>Blogs</a></li>
+            <li><a href='/Leaders'>Leaders</a></li>
+            <li><a href='/Partners'>Partners</a></li>
+            <li><a href='/Teaching center'>Teaching center</a></li>
+            <li><a href='/Blogs'>Blogs</a></li>
           </ul>
         </div>
 
@@ -44,15 +43,14 @@ const Footer = () => {
         </div>
       </div>
 
-    
+
       <div className='footer-line'></div>
 
-    
+
       <div className='footer-bottom'>
-      
+
         <p className='footer-copyright'>© 2025 GEN-Z School Inc. All rights reserved.</p>
 
-    
         <div className='footer-social'>
           <a href='https://facebook.com' target='_blank' rel='noopener noreferrer' className='social-icon'>
             <FaFacebookF />
