@@ -3,7 +3,7 @@ body {
     font-family: 'Segoe UI', sans-serif;
 }
 
-.login-page {
+.signup-page {
     height: 100vh;
     background: linear-gradient(to right, #fbdce3, #fce3ec);
     display: flex;
@@ -11,12 +11,13 @@ body {
     align-items: center;
 }
 
-.login-box {
+.signup-box {
     background: white;
     padding: 40px;
     border-radius: 12px;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
-    width: 350px;
+    width: 600px;
+    height: auto;
     text-align: center;
 }
 
@@ -25,30 +26,8 @@ h2 {
     color: #444;
 }
 
-.role-toggle {
-    display: flex;
-    margin-bottom: 20px;
-}
-
-.role-toggle button {
-    flex: 1;
-    padding: 10px;
-    border: none;
-    background: #ffe6ee;
-    color: #333;
-    cursor: pointer;
-    border-radius: 25px;
-    transition: background 0.3s ease;
-    margin: 0 5px;
-}
-
-.role-toggle .active {
-    background: linear-gradient(to right, #f9a7c3, #fcb6d0);
-    color: white;
-    font-weight: bold;
-}
-
-input {
+input,
+select {
     width: 100%;
     padding: 12px;
     margin: 10px 0;
@@ -57,18 +36,7 @@ input {
     font-size: 15px;
 }
 
-.extra-options {
-    text-align: right;
-    font-size: 14px;
-    margin-bottom: 15px;
-}
-
-.extra-options a {
-    text-decoration: none;
-    color: #d36c8e;
-}
-
-.login-button {
+.signup-button {
     width: 100%;
     padding: 12px;
     background: linear-gradient(to right, #fba0b4, #f6a5c0);
@@ -81,7 +49,7 @@ input {
     transition: 0.3s ease;
 }
 
-.login-button:hover {
+.signup-button:hover {
     background: linear-gradient(to right, #f794b1, #f9a7c3);
 }
 
@@ -93,4 +61,8 @@ p {
 p a {
     color: #d36c8e;
     text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
 }

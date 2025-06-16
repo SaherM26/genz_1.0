@@ -60,7 +60,8 @@ import CourseDetail from "./Pages/CourseDetail/CourseDetail";
 import Read from "./Pages/Read/Read";
 import Trial from "./Pages/Trial/Trial";
 import ScrollToTop from "./Components/Scrolltotop/Scrolltotop";
-import LoginPage from "./Pages/LogIn/LoginPage";
+import SignUp from './Pages/SignUp/SignUpPage';
+import LoginPage from './Pages/LogIn/LoginPage';
 
 function App() {
   return (
@@ -86,6 +87,7 @@ function App() {
         <Route path="/trial" element={<Trial />} />
         <Route path="/course/:id" element={<CourseDetail />} />
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/signup" element={<SignUp />} />
       </Routes>
       <Footer />
     </>
